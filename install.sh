@@ -1,6 +1,6 @@
 # base folders
 mkdir tools
-mkdir bin
+mkdir tools/bin
 
 # get pip2
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
