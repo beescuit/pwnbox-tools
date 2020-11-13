@@ -26,5 +26,8 @@ sudo pip2 install bloodhound --use-feature=2020-resolver
 wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb -O ./tools/rustscan.deb
 sudo dpkg -i ./tools/rustscan.deb
 
+# kerbrute
+wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64 -O ./tools/bin/kerbrute
+
 # generic bin
 echo "export PATH=\"$(pwd)/tools/bin/:$PATH\"" >> ~/.bashrc
