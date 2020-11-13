@@ -1,3 +1,7 @@
+# base folders
+mkdir tools
+mkdir bin
+
 # get pip2
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 chmod +x get-pip.py
@@ -6,7 +10,6 @@ sudo ./get-pip.py
 # windapsearch
 sudo apt update
 sudo apt-get install python3-ldap -y
-mkdir tools
 git clone https://github.com/ropnop/windapsearch.git ./tools/windapsearch
 ln -s ./tools/windapsearch/windapsearch.py ./tools/bin/windapsearch.py
 
