@@ -1,5 +1,6 @@
 # get pip2
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+chmod +x get-pip.py
 sudo ./get-pip.py
 
 # windapsearch
