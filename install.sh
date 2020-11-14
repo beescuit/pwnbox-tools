@@ -29,5 +29,8 @@ sudo dpkg -i ./tools/rustscan.deb
 # kerbrute
 wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64 -O ./tools/bin/kerbrute
 
+# exiftool
+sudo apt install exiftool
+
 # generic bin
 echo "export PATH=\"$(pwd)/tools/bin/:$PATH\"" >> ~/.bashrc
