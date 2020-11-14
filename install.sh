@@ -11,7 +11,7 @@ sudo ./get-pip.py
 sudo apt update
 sudo apt-get install python3-ldap -y
 git clone https://github.com/ropnop/windapsearch.git ./tools/windapsearch
-ln -s ./tools/windapsearch/windapsearch.py ./tools/bin/windapsearch.py
+ln -s $(pwd)/tools/windapsearch/windapsearch.py ./tools/bin/windapsearch.py
 
 # evil-winrm
 sudo gem install evil-winrm
