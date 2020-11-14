@@ -17,7 +17,7 @@ ln -s $(pwd)/tools/windapsearch/windapsearch.py ./tools/bin/windapsearch.py
 sudo gem install evil-winrm
 
 # ntpdate
-sudo apt-get install ntpdate
+sudo apt-get install ntpdate -y
 
 # bloodhound-python
 sudo pip2 install bloodhound --use-feature=2020-resolver
@@ -30,10 +30,10 @@ sudo dpkg -i ./tools/rustscan.deb
 wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64 -O ./tools/bin/kerbrute
 
 # exiftool
-sudo apt install exiftool
+sudo apt install exiftool -y
 
 # rlwrap
-sudo apt install rlwrap
+sudo apt install rlwrap -y
 
 # generic bin
 echo "export PATH=\"$(pwd)/tools/bin/:$PATH\"" >> ~/.bashrc
