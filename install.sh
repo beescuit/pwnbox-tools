@@ -32,5 +32,8 @@ wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_
 # exiftool
 sudo apt install exiftool
 
+# rlwrap
+sudo apt install rlwrap
+
 # generic bin
 echo "export PATH=\"$(pwd)/tools/bin/:$PATH\"" >> ~/.bashrc
