@@ -35,5 +35,14 @@ sudo apt install exiftool -y
 # rlwrap
 sudo apt install rlwrap -y
 
+# gdb
+sudo apt install gdb -y
+
+# pwndbg
+git clone https://github.com/pwndbg/pwndbg ./tools/pwndbg
+cd ./tools/pwndbg
+./setup.sh
+cd .
+
 # generic bin
 echo "export PATH=\"$(pwd)/tools/bin/:$PATH\"" >> ~/.bashrc
