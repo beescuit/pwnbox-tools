@@ -42,7 +42,7 @@ sudo apt install gdb -y
 git clone https://github.com/pwndbg/pwndbg ./tools/pwndbg
 cd ./tools/pwndbg
 ./setup.sh
-cd .
+cd ../../
 
 # generic bin
 echo "export PATH=\"$(pwd)/tools/bin/:$PATH\"" >> ~/.bashrc
