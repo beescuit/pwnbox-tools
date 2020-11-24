@@ -45,5 +45,8 @@ cd ./tools/pwndbg
 ./setup.sh
 cd ../../
 
+# update impacket
+pip3 install impacket --upgrade --user
+
 # generic bin
 echo "export PATH=\"$(pwd)/tools/bin/:$PATH\"" >> ~/.bashrc
